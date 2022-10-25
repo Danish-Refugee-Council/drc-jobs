@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "drcjobs.Web", "drcjobs.Web\", "{38B33E01-5767-4DFB-8C53-31167A26BF6D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2493"
+		Debug.AspNetCompiler.PhysicalPath = "drcjobs.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2493\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2493"
+		Release.AspNetCompiler.PhysicalPath = "drcjobs.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2493\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2493"
+		SlnRelativePath = "drcjobs.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B4CEBA2E-CC8D-44BA-B231-27CDD634768D} = {B4CEBA2E-CC8D-44BA-B231-27CDD634768D}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "drcjobs.Core", "drcjobs.Core\drcjobs.Core.csproj", "{B4CEBA2E-CC8D-44BA-B231-27CDD634768D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38B33E01-5767-4DFB-8C53-31167A26BF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B33E01-5767-4DFB-8C53-31167A26BF6D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CEBA2E-CC8D-44BA-B231-27CDD634768D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CEBA2E-CC8D-44BA-B231-27CDD634768D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CEBA2E-CC8D-44BA-B231-27CDD634768D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CEBA2E-CC8D-44BA-B231-27CDD634768D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DC469B8-A6B9-4E9B-99D1-B71DD01CCC1E}
+	EndGlobalSection
+EndGlobal
