@@ -33,6 +33,8 @@ namespace drcjobs.Core.Controllers
                 {
                     morePositionsToLoad = false;
                 }
+
+                allPositions = allPositions.OrderBy(x => x.ApplicationDue).ToList();
             }
 
             return PartialView(@"~/Views/Partials/Recruiter/Positions.cshtml", new RecruiterPositionResponse { MorePositionsToLoad = morePositionsToLoad, Positions = allPositions });
